@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="C6O-4s-r2w">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="SuO-Hb-mgk">
+            <objects>
+                <viewController id="C6O-4s-r2w" customClass="ViewController" customModule="Flick" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Abp-fz-dPi"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kns-fd-gx0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BmS-9a-SGT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0l-KL-XuB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </sceneKitView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="e0l-KL-XuB" secondAttribute="trailing" id="3dO-7g-ZmR"/>
+                            <constraint firstItem="Kns-fd-gx0" firstAttribute="top" secondItem="e0l-KL-XuB" secondAttribute="bottom" id="7Bz-QT-Umv"/>
+                            <constraint firstItem="e0l-KL-XuB" firstAttribute="leading" secondItem="BmS-9a-SGT" secondAttribute="leading" id="Ixc-g6-d2b"/>
+                            <constraint firstItem="e0l-KL-XuB" firstAttribute="top" secondItem="Abp-fz-dPi" secondAttribute="bottom" constant="-20" id="QYj-dt-Sbh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="e0l-KL-XuB" id="I5G-s2-BeF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFU-Ru-vdG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1359.2" y="514.99250374812596"/>
+        </scene>
+    </scenes>
+</document>

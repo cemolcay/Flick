@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B2C36CB71F41187C00A1A7CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C36CB61F41187C00A1A7CA /* AppDelegate.swift */; };
-		B2C36CB91F41187C00A1A7CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C36CB81F41187C00A1A7CA /* ViewController.swift */; };
-		B2C36CBC1F41187C00A1A7CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C36CBA1F41187C00A1A7CA /* Main.storyboard */; };
-		B2C36CBE1F41187C00A1A7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C36CBD1F41187C00A1A7CA /* Assets.xcassets */; };
-		B2C36CC11F41187C00A1A7CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C36CBF1F41187C00A1A7CA /* LaunchScreen.storyboard */; };
+		B21B67B71F41BDB40056E3A2 /* coin.scn in Resources */ = {isa = PBXBuildFile; fileRef = B21B67B61F41BDB40056E3A2 /* coin.scn */; };
+		B21CF4D01F412A36002B3649 /* scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = B21CF4CF1F412A36002B3649 /* scene.scn */; };
+		B2562CB91F41255A00229090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2562CB21F41255A00229090 /* AppDelegate.swift */; };
+		B2562CBA1F41255A00229090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2562CB31F41255A00229090 /* Assets.xcassets */; };
+		B2562CBB1F41255A00229090 /* FlickGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2562CB41F41255A00229090 /* FlickGestureRecognizer.swift */; };
+		B2562CBC1F41255A00229090 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2562CB51F41255A00229090 /* Info.plist */; };
+		B2562CBD1F41255A00229090 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2562CB61F41255A00229090 /* Launch Screen.storyboard */; };
+		B2562CBE1F41255A00229090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2562CB71F41255A00229090 /* Main.storyboard */; };
+		B2562CBF1F41255A00229090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2562CB81F41255A00229090 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B2C36CB31F41187C00A1A7CA /* SwipeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2C36CB61F41187C00A1A7CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2C36CB81F41187C00A1A7CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2C36CBB1F41187C00A1A7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2C36CBD1F41187C00A1A7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2C36CC01F41187C00A1A7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B2C36CC21F41187C00A1A7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B21B67B61F41BDB40056E3A2 /* coin.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = coin.scn; sourceTree = "<group>"; };
+		B21CF4CF1F412A36002B3649 /* scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = scene.scn; sourceTree = "<group>"; };
+		B2562CB21F41255A00229090 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2562CB31F41255A00229090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2562CB41F41255A00229090 /* FlickGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickGestureRecognizer.swift; sourceTree = "<group>"; };
+		B2562CB51F41255A00229090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2562CB61F41255A00229090 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B2562CB71F41255A00229090 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B2562CB81F41255A00229090 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2C36CB31F41187C00A1A7CA /* Flick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +42,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2562CB11F41255A00229090 /* Flick */ = {
+			isa = PBXGroup;
+			children = (
+				B2562CB21F41255A00229090 /* AppDelegate.swift */,
+				B2562CB81F41255A00229090 /* ViewController.swift */,
+				B2562CB41F41255A00229090 /* FlickGestureRecognizer.swift */,
+				B2562CB31F41255A00229090 /* Assets.xcassets */,
+				B2562CB51F41255A00229090 /* Info.plist */,
+				B2562CB61F41255A00229090 /* Launch Screen.storyboard */,
+				B2562CB71F41255A00229090 /* Main.storyboard */,
+				B21CF4CF1F412A36002B3649 /* scene.scn */,
+				B21B67B61F41BDB40056E3A2 /* coin.scn */,
+			);
+			path = Flick;
+			sourceTree = "<group>";
+		};
 		B2C36CAA1F41187B00A1A7CA = {
 			isa = PBXGroup;
 			children = (
-				B2C36CB51F41187C00A1A7CA /* SwipeKit */,
+				B2562CB11F41255A00229090 /* Flick */,
 				B2C36CB41F41187C00A1A7CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +69,17 @@
 		B2C36CB41F41187C00A1A7CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2C36CB31F41187C00A1A7CA /* SwipeKit.app */,
+				B2C36CB31F41187C00A1A7CA /* Flick.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B2C36CB51F41187C00A1A7CA /* SwipeKit */ = {
-			isa = PBXGroup;
-			children = (
-				B2C36CB61F41187C00A1A7CA /* AppDelegate.swift */,
-				B2C36CB81F41187C00A1A7CA /* ViewController.swift */,
-				B2C36CBA1F41187C00A1A7CA /* Main.storyboard */,
-				B2C36CBD1F41187C00A1A7CA /* Assets.xcassets */,
-				B2C36CBF1F41187C00A1A7CA /* LaunchScreen.storyboard */,
-				B2C36CC21F41187C00A1A7CA /* Info.plist */,
-			);
-			path = SwipeKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2C36CB21F41187C00A1A7CA /* SwipeKit */ = {
+		B2C36CB21F41187C00A1A7CA /* Flick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2C36CC51F41187C00A1A7CA /* Build configuration list for PBXNativeTarget "SwipeKit" */;
+			buildConfigurationList = B2C36CC51F41187C00A1A7CA /* Build configuration list for PBXNativeTarget "Flick" */;
 			buildPhases = (
 				B2C36CAF1F41187C00A1A7CA /* Sources */,
 				B2C36CB01F41187C00A1A7CA /* Frameworks */,
@@ -79,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = SwipeKit;
+			name = Flick;
 			productName = SwipeKit;
-			productReference = B2C36CB31F41187C00A1A7CA /* SwipeKit.app */;
+			productReference = B2C36CB31F41187C00A1A7CA /* Flick.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B2C36CAE1F41187B00A1A7CA /* Build configuration list for PBXProject "SwipeKit" */;
+			buildConfigurationList = B2C36CAE1F41187B00A1A7CA /* Build configuration list for PBXProject "Flick" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2C36CB21F41187C00A1A7CA /* SwipeKit */,
+				B2C36CB21F41187C00A1A7CA /* Flick */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +132,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C36CC11F41187C00A1A7CA /* LaunchScreen.storyboard in Resources */,
-				B2C36CBE1F41187C00A1A7CA /* Assets.xcassets in Resources */,
-				B2C36CBC1F41187C00A1A7CA /* Main.storyboard in Resources */,
+				B2562CBD1F41255A00229090 /* Launch Screen.storyboard in Resources */,
+				B2562CBC1F41255A00229090 /* Info.plist in Resources */,
+				B2562CBA1F41255A00229090 /* Assets.xcassets in Resources */,
+				B21CF4D01F412A36002B3649 /* scene.scn in Resources */,
+				B2562CBE1F41255A00229090 /* Main.storyboard in Resources */,
+				B21B67B71F41BDB40056E3A2 /* coin.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C36CB91F41187C00A1A7CA /* ViewController.swift in Sources */,
-				B2C36CB71F41187C00A1A7CA /* AppDelegate.swift in Sources */,
+				B2562CBF1F41255A00229090 /* ViewController.swift in Sources */,
+				B2562CB91F41255A00229090 /* AppDelegate.swift in Sources */,
+				B2562CBB1F41255A00229090 /* FlickGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B2C36CBA1F41187C00A1A7CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2C36CBB1F41187C00A1A7CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B2C36CBF1F41187C00A1A7CA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2C36CC01F41187C00A1A7CA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B2C36CC31F41187C00A1A7CA /* Debug */ = {
@@ -210,7 +205,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -274,11 +269,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = SwipeKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Flick/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.SwipeKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -288,11 +284,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = SwipeKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Flick/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.SwipeKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -300,7 +297,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2C36CAE1F41187B00A1A7CA /* Build configuration list for PBXProject "SwipeKit" */ = {
+		B2C36CAE1F41187B00A1A7CA /* Build configuration list for PBXProject "Flick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2C36CC31F41187C00A1A7CA /* Debug */,
@@ -309,7 +306,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2C36CC51F41187C00A1A7CA /* Build configuration list for PBXNativeTarget "SwipeKit" */ = {
+		B2C36CC51F41187C00A1A7CA /* Build configuration list for PBXNativeTarget "Flick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2C36CC61F41187C00A1A7CA /* Debug */,
