@@ -162,7 +162,12 @@ public class FlickGestureRecognizer: UIGestureRecognizer {
     super.touchesMoved(touches, with: event)
     let position = touches.first?.location(in: view) ?? .zero
     currentTime = Date()
-    force = force == nil ? touches.first?.force : force
+    
+    if #available(iOS 9.0, *) {
+      force = force == nil ? touches.first?.force : force
+    } else {
+      force = nil
+    }
 
     // Check if swipe is lineer
     let slope = Slope(p1: startPoint, p2: position)
