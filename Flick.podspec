@@ -60,7 +60,7 @@ In your gesture handler, read the data directly from gesture reference.
 
                    DESC
 
-  s.homepage     = "http://EXAMPLE/Flick"
+  s.homepage     = "https://github.com/cemolcay/Flick"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
